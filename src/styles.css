@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    margin:20px;
+    background-color: gold;
+}
+h1{
+    text-align: center;
+    background-color: khaki;
+}
+table {
+    width: 100%;
+}
+tr::hover{
+    background-color: rgb(252, 0, 0);
+}
+tr:nth-child(odd){
+    background-color: purple;
+    color:brown;
+}
+tr:nth-child(even){
+    background-color: sienna;
+    color: silver;
+}
